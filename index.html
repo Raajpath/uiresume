@@ -33,6 +33,47 @@
             color: black;
             padding-left: 10px;
         }
+        @media(max-width: 1200px){
+         .profile{
+            display: grid;
+            grid-template-columns: 0fr 8.7fr 3.3fr;
+            background-color: cyan;
+            height: auto;
+            width: auto;
+            border-bottom: 2px solid black;
+        }
+        img{
+           display: none;
+        }
+       
+        }
+        @media (max-width: 900px){
+           .profile{
+              display: block;
+              border-left: 2px solid black;
+              border-bottom: none;
+           }
+           img{
+              display: none;
+           }
+           .profile:last-child{
+            padding-right: 5px;
+            font-size: 14px;
+           }
+           .nametitle{
+              border-right:none;
+              text-align: center;
+            }
+           .section{
+              display: block;
+           }
+           .main-section{
+            display: block;
+            background-color: lightcyan;
+            color: black;
+            padding-left: 10px;
+        }
+        }
     </style>
 
 
